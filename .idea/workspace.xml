@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f40d112-3833-4900-af66-7261d4dca1ea" name="Changes" comment="DSA commit">
+      <change afterPath="$PROJECT_DIR$/src/ARRAYS/SecondLargestElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ARRAYS/FindHCF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ARRAYS/FindHCF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DYNAMICPROGRAMMING/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DYNAMICPROGRAMMING/TopKFrequentElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LINKEDLIST/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LINKEDLIST/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/STRING/ReversePositionOfSubWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STRING/ReversePositionOfSubWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/STRING/SeparateCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STRING/SeparateCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/STRING/StringExpansion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STRING/StringExpansion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/STRING/SwapPairsOfCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STRING/SwapPairsOfCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ARRAYS/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ARRAYS/RotateArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,49 +45,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AddTwoNumbers (1).executor": "Run",
-    "Application.AddTwoNumbers.executor": "Run",
-    "Application.FindDuplicates.executor": "Run",
-    "Application.FindHCF.executor": "Run",
-    "Application.LongestCommonSubsequence.executor": "Run",
-    "Application.MergeTwoSortetdLists.executor": "Run",
-    "Application.MissingNumber.executor": "Run",
-    "Application.MoveAllZerosLeft.executor": "Run",
-    "Application.RemoveDigitFromNumberToMaximizeResult.executor": "Run",
-    "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
-    "Application.RemovingStarsFromString.executor": "Run",
-    "Application.ReverseLinkedList.executor": "Run",
-    "Application.ReverseNumber.executor": "Run",
-    "Application.ReversePositionOfSubWords.executor": "Run",
-    "Application.ReverseWordsInString.executor": "Run",
-    "Application.RotateArray.executor": "Run",
-    "Application.SeparateCharacters.executor": "Run",
-    "Application.StringCompression.executor": "Run",
-    "Application.StringExpansion.executor": "Run",
-    "Application.SwapPairsOfCharacters.executor": "Run",
-    "Application.TopKFrequentElements.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/ARUN/IdeaProjects/DSA_Master/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddTwoNumbers (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.AddTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindHCF.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestCommonSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeTwoSortetdLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveAllZerosLeft.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDigitFromNumberToMaximizeResult.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicatesFromSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemovingStarsFromString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReversePositionOfSubWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseWordsInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeparateCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringCompression.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringExpansion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwapPairsOfCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TopKFrequentElements.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ARUN/IdeaProjects/DSA_Master/src/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ReversePositionOfSubWords">
-    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DYNAMICPROGRAMMING.LongestCommonSubsequence" />
-      <module name="DSA_Master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DYNAMICPROGRAMMING.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.SecondLargestElement">
     <configuration name="ReversePositionOfSubWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="STRING.ReversePositionOfSubWords" />
       <module name="DSA_Master" />
@@ -119,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeparateCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="STRING.SeparateCharacters" />
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ARRAYS.RotateArray" />
       <module name="DSA_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="STRING.*" />
+          <option name="PATTERN" value="ARRAYS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ARRAYS.SecondLargestElement" />
+      <module name="DSA_Master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ARRAYS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondLargestElement" />
+        <item itemvalue="Application.RotateArray" />
+        <item itemvalue="Application.ReverseWordsInString" />
         <item itemvalue="Application.ReversePositionOfSubWords" />
         <item itemvalue="Application.SwapPairsOfCharacters" />
-        <item itemvalue="Application.LongestCommonSubsequence" />
-        <item itemvalue="Application.ReverseWordsInString" />
-        <item itemvalue="Application.SeparateCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725730488682</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DSA commit">
+      <option name="closed" value="true" />
+      <created>1729704473051</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729704473052</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
