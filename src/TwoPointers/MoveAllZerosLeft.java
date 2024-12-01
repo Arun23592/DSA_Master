@@ -13,7 +13,7 @@ public class MoveAllZerosLeft {
                 int temp = nums[end];
                 nums[end] = nums[start];
                 nums[start] = temp;
-                end--;
+                end--;  
                 start--;
             }
         }
