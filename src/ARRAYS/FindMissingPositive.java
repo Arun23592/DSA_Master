@@ -20,12 +20,12 @@ public class FindMissingPositive {
         //step 2
         for (int i=0; i<n; i++){
             int index = Math.abs(nums[i]) - 1;
-            if (nums[index] == 1) return nums[index] = -1 * nums[index];
+            if (nums[index] > 0) nums[index] = -1 * nums[index];
         }
 
         //step3
         for (int i=0; i<n; i++){
-            if (nums[i] == 1){
+            if (nums[i] > 0){
                 return i + 1;
             }
         }
@@ -34,7 +34,7 @@ public class FindMissingPositive {
 
 
     public static void main(String[] args){
-        int[] nums = {1 ,3, 2, 0};
+        int[] nums = {3, 4, -1, 1};
         FindMissingPositive missing = new FindMissingPositive();
         System.out.println("First Missing Positive: "+missing.missingNumber(nums));
     }
