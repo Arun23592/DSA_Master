@@ -11,6 +11,7 @@ public class ExtractAndSumNumbers {
         for (char ch: input.toCharArray()){
             if (Character.isDigit(ch)){
                 number.append(ch);
+                System.out.print(number);
             }else {
                 if (number.length() > 0){
                     sum += Integer.parseInt(number.toString());
@@ -25,3 +26,9 @@ public class ExtractAndSumNumbers {
         System.out.println("Sum of numbers: "+sum);
     }
 }
+
+/*
+* Congnizant Interview Question
+*
+*
+* */
