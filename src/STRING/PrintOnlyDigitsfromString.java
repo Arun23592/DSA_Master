@@ -5,6 +5,8 @@ public class PrintOnlyDigitsfromString {
     public static void main(String[] args){
        String[] S = {"USD 89,989.00","INR 679,76.899"};
 
+
+
        for (String str: S){
            StringBuilder digitsOnly = new StringBuilder();
 
@@ -15,7 +17,7 @@ public class PrintOnlyDigitsfromString {
                    break;
                }
            }
-           System.out.print(digitsOnly+ " ");
+           System.out.print(digitsOnly+ ", ");
        }
     }
 
@@ -28,5 +30,5 @@ public class PrintOnlyDigitsfromString {
 
 
 //Input: S1 = {"USD 89,989.00","INR 679,76.899"}
-//
+
 //Output: 89989, 67976
