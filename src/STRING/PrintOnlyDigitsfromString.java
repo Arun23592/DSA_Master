@@ -7,32 +7,18 @@ public class PrintOnlyDigitsfromString {
 
 
 
-       for (String str: S){
+       for (String str: S) {
            StringBuilder digitsOnly = new StringBuilder();
 
-           for (char ch: str.toCharArray()){
-               if (Character.isDigit(ch)){
+           for (char ch : str.toCharArray()) {
+               if (Character.isDigit(ch)) {
                    digitsOnly.append(ch);
-               }else if (ch == '.'){
+               } else if (ch == '.') {
                    break;
                }
            }
-           System.out.print(digitsOnly+ ", ");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-           ?
+           System.out.print(digitsOnly + ", ");
+       }
     }
 
 
