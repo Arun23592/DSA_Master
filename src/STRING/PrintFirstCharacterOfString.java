@@ -7,7 +7,7 @@ public class PrintFirstCharacterOfString {
         String[] words = s.split(" ");
         for (String word: words){
             if (!word.isEmpty()){
-                System.out.print(word.charAt(1)+ " ");
+                System.out.print(word.charAt(0)+ " ");
             }
         }
     }
