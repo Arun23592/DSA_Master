@@ -15,6 +15,7 @@ public class MoveAllZerosLeft {
                 nums[start] = temp;
                 end--;  
                 start--;
+
             }
         }
 
