@@ -2,7 +2,7 @@ package DYNAMICPROGRAMMING;
 
 public class LongestIncreasingSubsequence {
 
-    public int lengthOfLIS(int[] nums){
+    public static int lengthOfLIS(int[] nums){
         //Initialize the DP array
 
         int[] T = new int[nums.length];
@@ -26,6 +26,7 @@ public class LongestIncreasingSubsequence {
 
     public static void main(String[] args){
         int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
+        lengthOfLIS(nums);
 
     }
 }
