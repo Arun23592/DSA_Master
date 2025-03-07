@@ -27,7 +27,7 @@ public class ConvertCamelCase {
 
 
     public static void main(String[] args){
-        String str = "cats AND Dogs are Awesome";
+        String str = "cats AND*Dogsare Awesome";
        String cCase = cameCase(str);
         System.out.println(cCase);
 
