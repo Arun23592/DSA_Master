@@ -35,3 +35,35 @@ public class SwapPairsOfCharacters {
 //e.g.:
 //Mumbai => uMbmia
 //Hyderabad => yHedarabd
+
+
+//Approach
+//Input Validation:
+//
+//If the input string is null or has a length less than 2, return the string as-is.
+//
+//Character Array Conversion:
+//
+//Convert the string to a character array for in-place modifications.
+//
+//Pair Swapping:
+//
+//Iterate through the array in steps of 2.
+//
+//Swap adjacent characters (e.g., swap charArray[i] and charArray[i+1]).
+//
+//Return Result:
+//
+//Convert the modified character array back to a string and return it.
+
+
+//Time Complexity
+//O(n):
+//
+//The loop runs for n/2 iterations (where n is the string length), and each iteration performs a constant-time swap.
+//
+//Space Complexity
+//O(n):
+//
+//The character array uses space proportional to the input string length.
+
