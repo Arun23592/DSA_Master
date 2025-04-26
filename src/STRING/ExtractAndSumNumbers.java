@@ -23,7 +23,7 @@ public class ExtractAndSumNumbers {
         if (number.length() > 0){
             sum += Integer.parseInt(number.toString());
         }
-        System.out.println("Sum of numbers: "+sum);
+        System.out.println(" Sum of numbers: "+sum);
     }
 }
 
