@@ -43,6 +43,14 @@ Space Complexity:
 
 O(n) (to hold char arrays)
 
+✅ Edge Cases to Consider
+Case	Result
+str1 = "a", str2 = "a"	✅ Anagram
+str1 = "abc", str2 = "ab"	❌ Not anagram
+str1 = "", str2 = ""	✅ Anagram
+str1 = "Listen", str2 = "Silent"	✅ Anagram (after converting to lowercase)
+str1 = "aab", str2 = "aba"	✅ Anagram
+
 
 *
 *
