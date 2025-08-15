@@ -53,6 +53,18 @@ Very long strings: Map storage remains efficient for bounded character sets.
 Whitespace handling: Depends on requirements (whitespace is counted as is).
 *
 *
+* Interview Follow Up Questions
+Case Sensitivity: Should 'A' and 'a' be treated as different characters?
+
+Character Set: Only alphabets, or all Unicode characters?
+
+Performance: How would you optimize memory for very large text?
+
+Output Format: Return a Map? Array? Print frequencies sorted by value/frequency/alphabetically?
+
+Streaming Data: What if the input arrives as a stream of characters rather than a pre-collected string?
+*
+*
 *
 *
 *
