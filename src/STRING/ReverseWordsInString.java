@@ -13,7 +13,7 @@ public class ReverseWordsInString {
     }
 
     public static void main(String[] args){
-        String s = "  hello world  ";
+        String s = "YOU CANT SEE ME";
         ReverseWordsInString reverse = new ReverseWordsInString();
         String reversedString = reverse.reverseWord(s);
         System.out.println("Reversed word is: "+reversedString);
