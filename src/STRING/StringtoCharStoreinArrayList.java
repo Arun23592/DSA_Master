@@ -21,4 +21,6 @@ public class StringtoCharStoreinArrayList {
 
 /*
 * Split the string into characters and store it in arraylist
+*
+* Asked in HCL interview
 * */
