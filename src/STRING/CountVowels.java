@@ -9,7 +9,11 @@ public class CountVowels {
         for (int i=0; i<input.length(); i++){
             char ch = input.charAt(i);
 
-            if()
+            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
+                count++;
+            }
         }
+
+        System.out.println("Number of vowels found: "+count);
     }
 }
