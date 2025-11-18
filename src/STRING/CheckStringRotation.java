@@ -10,6 +10,7 @@ public class CheckStringRotation {
             //2. concatenate s1 with s1 itself
             String concate = s1 + s1;
             //3. return substring of s2
+
             return concate.contains(s2);
     }
 
