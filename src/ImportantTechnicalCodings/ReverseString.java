@@ -34,7 +34,6 @@ public class ReverseString {
  *
  * Explanation:
  *
- * "Explanation:
  * 1. Initialize input string and create a variable to store  the reversed string
  * 2. Iterate through the string from the end to the start
  * 3. Concatenate each character to the reversed string
