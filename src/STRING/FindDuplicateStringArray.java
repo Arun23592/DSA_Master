@@ -26,4 +26,18 @@ public class FindDuplicateStringArray {
  *Explanation (Interview):
 “I used a HashSet because insertion is O(1). If add() returns false, the element already exists, meaning it's a duplicate.”
 
+
+Another easy approach:
+
+def find_duplicates(input):
+    return list(set(input))
+
+input = "programming"
+print(find_duplicates(input))def find_duplicates(input):
+    return list(set(input))
+
+input = "programming"
+print(find_duplicates(input))
+
+
 * */
