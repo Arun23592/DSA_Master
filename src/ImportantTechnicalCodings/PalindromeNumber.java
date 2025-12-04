@@ -18,7 +18,7 @@ public class PalindromeNumber {
     }
 
     public static void main(String[] args){
-        int number = 10;
+        int number = 1212;
         if (isPalindrome(number)){
             System.out.println(number+ " - Is a Palindrome");
         }else {
