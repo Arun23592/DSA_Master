@@ -2,7 +2,7 @@ package STRING;
 
 public class ExtractAndSumNumbers {
     public static void main(String[] args){
-        String input = "123qwerS23we5";
+        String input = "A45r5u50n";
 
         int sum = 0;
 
@@ -30,5 +30,9 @@ public class ExtractAndSumNumbers {
 /*
 * Congnizant Interview Question
 *
+* input: 123qwerS23we5
 *
+* Asked in Wipro
+* //input = "A45r5u50n"
+    //output = "Arun 100"
 * */
