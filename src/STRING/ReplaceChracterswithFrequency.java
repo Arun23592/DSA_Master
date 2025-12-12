@@ -47,7 +47,6 @@ o → 3
 m → 1
 r → 2
 w → 1
-
 Replace characters based on frequency:
 
 t → t
