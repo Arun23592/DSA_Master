@@ -25,7 +25,9 @@ public class First_Non_RepeatedCharacter {
         List<Character> nonRepeatedCharacter = new ArrayList<>();
         for (Map.Entry<Character, Integer> entry: freqMap.entrySet()){
             if(entry.getValue() == 1){
-                System.out.println(entry.getKey());
+//                System.out.println(entry.getKey());  //printing all the non-repeated characters
+                nonRepeatedCharacter.add(entry.getKey());
+
             }
 
         }
@@ -34,7 +36,7 @@ public class First_Non_RepeatedCharacter {
     }
 
     public static void main(String[] args){
-        String input = "Is it your first company";
+        String input = "swiss";
 
         List<Character> results = firstNonRepeatedCharacter(input);
 
@@ -45,3 +47,11 @@ public class First_Non_RepeatedCharacter {
         }
     }
 }
+
+
+/**
+ *
+ * input = "Is it your first company"
+ * input = "swiss"
+ *
+ * */
