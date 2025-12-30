@@ -13,14 +13,14 @@ public class ExtractAndSumNumbers {
                 number.append(ch);
                 System.out.print(number);
             }else {
-                if (number.length() > 0){
+                if (!number.isEmpty()){
                     sum += Integer.parseInt(number.toString());
                     number.setLength(0);
                 }
             }
         }
 
-        if (number.length() > 0){
+        if (!number.isEmpty()){
             sum += Integer.parseInt(number.toString());
         }
         System.out.println(" Sum of numbers: "+sum);
