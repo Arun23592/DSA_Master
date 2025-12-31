@@ -3,7 +3,7 @@ package STRING;
 public class RemoveDigitFromNumberToMaximizeResult {
 
     public static String removeDigit(String number,  char digit){
-        //1. Initialize empty strirng
+        //1. Initialize empty string
         String maximizeResult = "";
 
         for (int i=0; i<number.length(); i++){
