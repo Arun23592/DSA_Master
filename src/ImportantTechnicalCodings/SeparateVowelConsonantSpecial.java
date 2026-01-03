@@ -21,10 +21,13 @@ public class SeparateVowelConsonantSpecial {
             } else if (Character.isDigit(ch)) {
                 Digit.append(ch);
             }else {
-
+                specials.append(ch);
             }
 
         }
+
+        String result = vowels.toString() + " " + consonants.toString() + " " + Digit.toString() + " " + specials.toString();
+        System.out.println(result);
 
     }
 }
