@@ -3,7 +3,7 @@ package ImportantTechnicalCodings;
 public class SeparateVowelConsonantSpecial {
 
     public static void main(String[] args){
-        String input = "Hello@123";
+        String input = "Hello@123!Worid#";
 
         StringBuilder vowels = new StringBuilder();
         StringBuilder consonants = new StringBuilder();
