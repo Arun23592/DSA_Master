@@ -26,7 +26,6 @@ public class ReverseArray {
     }
 }
 
-
 /*
  * Approach: Two pointers - - Traverse arrays - this approach entirely reverse the array
  * Time Complexity: O(n)
