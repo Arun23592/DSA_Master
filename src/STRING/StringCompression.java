@@ -30,7 +30,7 @@ public class StringCompression {
 
 
     public static void main(String[] args){
-        String input = "aaaAAAbbbCCCdddd";
+        String input = "aabbbcccc";
         String output = compressString(input);
         System.out.println(output);
     }
