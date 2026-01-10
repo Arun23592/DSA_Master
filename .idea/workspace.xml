@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f40d112-3833-4900-af66-7261d4dca1ea" name="Changes" comment="DSA RotateArray, SecondLargestElement">
+      <change afterPath="$PROJECT_DIR$/src/EPAM/RemoveDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImportantTechnicalCodings/FibonacciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImportantTechnicalCodings/FibonacciSeries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImportantTechnicalCodings/FindCountOddEvenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImportantTechnicalCodings/FindCountOddEvenNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImportantTechnicalCodings/FindFactorialNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImportantTechnicalCodings/FindFactorialNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImportantTechnicalCodings/FindOddorEvenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImportantTechnicalCodings/FindOddorEvenNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImportantTechnicalCodings/FindPrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImportantTechnicalCodings/FindPrimeNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImportantTechnicalCodings/FindPrimeNumbersRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImportantTechnicalCodings/FindPrimeNumbersRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImportantTechnicalCodings/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImportantTechnicalCodings/PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImportantTechnicalCodings/PalindromeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImportantTechnicalCodings/PalindromeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImportantTechnicalCodings/ReverseNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImportantTechnicalCodings/ReverseNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImportantTechnicalCodings/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImportantTechnicalCodings/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImportantTechnicalCodings/SwapTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImportantTechnicalCodings/SwapTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/STRING/RemoveDuplicateString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/STRING/RemoveDuplicateString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EPAM/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EPAM/BankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,80 +41,111 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2irpKZ6fCFlodOk2HHV0sMnCxZd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AddTwoNumbers (1).executor": "Run",
-    "Application.AddTwoNumbers.executor": "Run",
-    "Application.BuyandSellStock.executor": "Run",
-    "Application.ConvertCamelCase.executor": "Run",
-    "Application.ConvertStringToInteger.executor": "Run",
-    "Application.CountNumberOfDigitsinNumber.executor": "Run",
-    "Application.CountWordOccurrences.executor": "Run",
-    "Application.ExtractAndSumNumbers.executor": "Run",
-    "Application.FibonacciSeries.executor": "Run",
-    "Application.FindArmstrongNumber.executor": "Run",
-    "Application.FindCountOddEvenNumbers.executor": "Run",
-    "Application.FindDuplicateCharacters.executor": "Run",
-    "Application.FindDuplicateNumber.executor": "Run",
-    "Application.FindDuplicates.executor": "Run",
-    "Application.FindFactorialNumber.executor": "Run",
-    "Application.FindHCF.executor": "Run",
-    "Application.FindNthNodeofEndLinkedList.executor": "Run",
-    "Application.FindOddorEvenNumber.executor": "Run",
-    "Application.FindPrimeNumbers.executor": "Run",
-    "Application.FindPrimeNumbersRange.executor": "Run",
-    "Application.LongestCommonSubsequence.executor": "Run",
-    "Application.LongestIncreasingSubsequence.executor": "Run",
-    "Application.LongestSubstring.executor": "Run",
-    "Application.MatrixDiagonalSum.executor": "Run",
-    "Application.MaximumSumSubArray.executor": "Run",
-    "Application.MergeTwoSortetdLists.executor": "Run",
-    "Application.MissingNumber.executor": "Run",
-    "Application.MoveAllZerosLeft.executor": "Run",
-    "Application.MoveAllZerosRight.executor": "Run",
-    "Application.NQueen.executor": "Run",
-    "Application.PalindromeNumber.executor": "Run",
-    "Application.PalindromeString (1).executor": "Run",
-    "Application.PalindromeString.executor": "Run",
-    "Application.RemoveDigitFromNumberToMaximizeResult.executor": "Run",
-    "Application.RemoveDuplicateString.executor": "Run",
-    "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
-    "Application.RemovingStarsFromString.executor": "Run",
-    "Application.ReverseLinkedList.executor": "Run",
-    "Application.ReverseNumber.executor": "Run",
-    "Application.ReversePositionOfSubWords.executor": "Run",
-    "Application.ReverseString.executor": "Run",
-    "Application.ReverseString_recursion.executor": "Run",
-    "Application.ReverseWordsInString.executor": "Run",
-    "Application.RotateArray.executor": "Run",
-    "Application.SecondLargestElement.executor": "Run",
-    "Application.SeparateCharacters.executor": "Run",
-    "Application.StarPattern.executor": "Run",
-    "Application.StringCompression.executor": "Run",
-    "Application.StringExpansion.executor": "Run",
-    "Application.SwapPairsOfCharacters.executor": "Run",
-    "Application.SwapTwoNumbers.executor": "Run",
-    "Application.TopKFrequentElements.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/ARUN/IdeaProjects/DSA_Master/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddTwoNumbers (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.AddTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuyandSellStock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckStringRotation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConvertCamelCase.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConvertStringToInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountFrequencyOfEachCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountNumberOfDigitsinNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountVowels.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountWordOccurrences.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExtractAndSumNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExtractandSumStringNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibonacciSeries.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindArmstrongNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindAverageUsingHashMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindCountOddEvenNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicateCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicateNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicateStringArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicatesNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindFactorialNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindHCF.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindLargestWord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMinMaxNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindNthNodeofEndLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindOddorEvenNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindPrimeNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindPrimeNumbersRange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.First_Non_RepeatedCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapInterface (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapInterface (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapInterface (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapInterface (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashMapInterface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestCommonSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestIncreasingSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MagicTripletsSumisZero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatrixDiagonalSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSumSubArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeTwoSortetdLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveAllZerosLeft.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveAllZerosRight.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NQueen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeString (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDigitFromNumberToMaximizeResult.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicateString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicatesFromSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemovingStarsFromString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReplaceChracterswithFrequency.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReversePositionOfSubWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseString_recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseWordsInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondLargestElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeparateCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeparateVowelConsonantSpecial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SkipElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StarPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringCompression.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringExpansion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringsareAnagaramsOrNot.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringsareAnagaramsOrNot2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringtoCharStoreinArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwapPairsOfCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwapTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TopKFrequentElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.checkAnagram.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ARUN/IdeaProjects/DSA_Master/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.FindOddorEvenNumber">
-    <configuration name="CountNumberOfDigitsinNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImportantTechnicalCodings.CountNumberOfDigitsinNumber" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="STRING" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RemoveDuplicates">
+    <configuration name="FindMinMaxNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ARRAYS.FindMinMaxNumbers" />
       <module name="DSA_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImportantTechnicalCodings.*" />
+          <option name="PATTERN" value="ARRAYS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImportantTechnicalCodings.FindArmstrongNumber" />
+    <configuration name="RemoveDuplicateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STRING.RemoveDuplicateString" />
       <module name="DSA_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImportantTechnicalCodings.*" />
+          <option name="PATTERN" value="STRING.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindCountOddEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImportantTechnicalCodings.FindCountOddEvenNumbers" />
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EPAM.RemoveDuplicates" />
       <module name="DSA_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImportantTechnicalCodings.*" />
+          <option name="PATTERN" value="EPAM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImportantTechnicalCodings.FindFactorialNumber" />
+    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STRING.StringCompression" />
       <module name="DSA_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImportantTechnicalCodings.*" />
+          <option name="PATTERN" value="STRING.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindOddorEvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImportantTechnicalCodings.FindOddorEvenNumber" />
+    <configuration name="StringExpansion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STRING.StringExpansion" />
       <module name="DSA_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImportantTechnicalCodings.*" />
+          <option name="PATTERN" value="STRING.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindOddorEvenNumber" />
-        <item itemvalue="Application.FindCountOddEvenNumbers" />
-        <item itemvalue="Application.CountNumberOfDigitsinNumber" />
-        <item itemvalue="Application.FindArmstrongNumber" />
-        <item itemvalue="Application.FindFactorialNumber" />
+        <item itemvalue="Application.RemoveDuplicates" />
+        <item itemvalue="Application.RemoveDuplicateString" />
+        <item itemvalue="Application.StringCompression" />
+        <item itemvalue="Application.StringExpansion" />
+        <item itemvalue="Application.FindMinMaxNumbers" />
       </list>
     </recent_temporary>
   </component>
