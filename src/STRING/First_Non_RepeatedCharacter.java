@@ -41,7 +41,7 @@ public class First_Non_RepeatedCharacter {
         List<Character> results = firstNonRepeatedCharacter(input);
 
         if (!results.isEmpty()){
-            System.out.println("All Non-Repeated character is: "+results.get(1));
+            System.out.println("All Non-Repeated character is: "+results);
         }else {
             System.out.println("Non-Repeated characters not found: ");
         }
