@@ -3,6 +3,6 @@ package EPAM;
 public class BankTest {
 
         public static void main(String[] args){
-                Double balance = 50000;
+//                Double balance = 50000;
         }
 }
