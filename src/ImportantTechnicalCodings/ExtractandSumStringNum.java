@@ -30,7 +30,7 @@ public class ExtractandSumStringNum {
     }
 
     public static void main(String[] args){
-        String str = "A45r5u50n";
+            String str = "A45r5u50n";
         String result = extractandSumNum(str);
         System.out.println(result);
     }
