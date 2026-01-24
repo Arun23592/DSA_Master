@@ -53,4 +53,5 @@ public class First_Non_RepeatedCharacter {
  * input = "Is it your first company"
  * input = "swiss"
  *
+ *
  * */
