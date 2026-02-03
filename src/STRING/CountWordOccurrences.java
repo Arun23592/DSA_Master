@@ -84,7 +84,15 @@ What about parallel processing, or using functional programming features?
 
 Can you optimize for frequent words? What data structures would you use?
 
-
+WIPRO:
+*
+*
+*
+* Write a Java Program that counts the frequency of each word in a given sentence using a HashMap
+Requirements:
+Take a sentence as input (eg., “Java is fun and Java is powerful”)
+Store each word as a key in the HashMap and its count as the value
+  3. Print the frequency of each word
 *
 *
 *
