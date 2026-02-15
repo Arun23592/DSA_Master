@@ -40,7 +40,7 @@ public class BalancedBrackets {
         if(!result.isEmpty()){
             System.out.println("Balanced Brackets: "+result);
         }else {
-            System.out.println("Not Balanced Brackets");
+            System.out.println("Not a Balanced Brackets");
         }
     }
 }
