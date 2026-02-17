@@ -44,3 +44,22 @@ public class BalancedBrackets {
         }
     }
 }
+
+/**
+ *
+ * ✔ O(n) time complexity
+ * ✔ O(n) space complexity
+ *
+ *
+ * 🧠 Interview Tip (Very Important)
+ *
+ * If interviewer asks:
+ *
+ * Why use Stack?
+ *
+ * Answer:
+ *
+ * Because brackets follow LIFO (Last In First Out) pattern.
+ * The most recent opening bracket must be closed first.
+ *
+ * */
