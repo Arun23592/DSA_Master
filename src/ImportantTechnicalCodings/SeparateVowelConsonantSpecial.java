@@ -29,5 +29,6 @@ public class SeparateVowelConsonantSpecial {
         String result = vowels.toString() + " " + consonants.toString() + " " + Digit.toString() + " " + specials.toString();
         System.out.println(result);
 
+
     }
 }
