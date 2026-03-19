@@ -25,3 +25,12 @@ public class ReverseEachWordInsentence {
 
 
 }
+
+/**
+ *
+ * 🔥 Approach
+ * 	1.	Split sentence into words
+ * 	2.	Reverse each word
+ * 	3.	Join them back
+ *
+ * */
