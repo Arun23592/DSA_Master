@@ -9,6 +9,7 @@ public class StringsareAnagaramsOrNot2 {
         if(str1.length() != str2.length()){
             return false;
         }
+
         //2. intialize count array
         int[] count = new int[26];
 
@@ -20,7 +21,7 @@ public class StringsareAnagaramsOrNot2 {
         //4. count occurrence in str2
         for (int i=0; i<str2.length(); i++){
             if(count[str2.charAt(i) - 'a'] == 0) return false;
-            count[str2.charAt(i) - 'a'] -= 1;
+                count[str2.charAt(i) - 'a'] -= 1;
         }
 
         return true;
