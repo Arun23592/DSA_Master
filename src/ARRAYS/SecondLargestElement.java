@@ -29,3 +29,8 @@ public class SecondLargestElement {
         System.out.println("Second Largest element is: "+secondLarge);
     }
 }
+
+/*
+I used the greedy single-pass approach — I make the optimal local decision at every element without backtracking. No sorting, no extra data structure. Just two variables updated in one linear scan — giving the best possible O(n) time and O(1) space."
+*
+**/
