@@ -31,6 +31,13 @@ public class SecondLargestElement {
 }
 
 /*
-I used the greedy single-pass approach — I make the optimal local decision at every element without backtracking. No sorting, no extra data structure. Just two variables updated in one linear scan — giving the best possible O(n) time and O(1) space."
+
+This program finds the second largest element in an integer array in a single pass, without sorting.
+I'll walk you through the logic, edge cases I handled, and the complexity.
+
+Approach:
+I used the greedy single-pass approach — I make the optimal local decision at every element without backtracking.
+No sorting, no extra data structure. Just two variables updated in one linear scan — giving the best possible O(n) time and O(1) space."
+
 *
 **/
