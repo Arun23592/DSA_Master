@@ -27,6 +27,7 @@ public class First_Non_RepeatedCharacter {
             if(entry.getValue() == 1){
 //                System.out.println(entry.getKey());  //printing all the non-repeated characters
                 nonRepeatedCharacter.add(entry.getKey());
+                // return entry.getKey();  //if only want to print first non-repeated character
 
             }
 
@@ -36,7 +37,7 @@ public class First_Non_RepeatedCharacter {
     }
 
     public static void main(String[] args){
-        String input = "swiss";
+        String input = "Is it your first company";
 
         List<Character> results = firstNonRepeatedCharacter(input);
 
