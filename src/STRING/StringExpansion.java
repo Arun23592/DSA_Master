@@ -1,6 +1,6 @@
 package STRING;
 
-public class StringExpansion {
+public class    StringExpansion {
 
     public static String expandString(String str){
         if(str == null || str.isEmpty()){
