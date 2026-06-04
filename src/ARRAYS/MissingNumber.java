@@ -20,6 +20,7 @@ public class MissingNumber {
         System.out.println("Missing number is : "+missing);
     }
 
+
 }
 
 
