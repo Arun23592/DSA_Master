@@ -34,7 +34,6 @@ public class generatePattern {
  *
  *EY interview question:
  * Generate Alternating Number pattern
- *
  * Inputs:
  * Input1 = 100;
  * Input2 = 10;
