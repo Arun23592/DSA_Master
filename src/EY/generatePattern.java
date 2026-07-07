@@ -40,9 +40,9 @@ public class generatePattern {
  *
  * Output:
  * 100, 10, 90, 20, 80, 30, 70, 40, 60, 50
- *
+
  * How it works?
- *
+
  * We print input1, imput2 and then decrease input1 by 10
  * And increase input2 by 10 until input1 > input2
  */
