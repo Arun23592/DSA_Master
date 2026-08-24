@@ -28,12 +28,15 @@ public class ReverseWhilePreserveWhiteSpace {
                 right--;
             }
         }
+
+        return new String(result);
     }
 
 
 
     public static void main(String[] args){
         String input = "Hello World";
+
 
     }
 }
