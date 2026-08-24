@@ -36,6 +36,8 @@ public class ReverseWhilePreserveWhiteSpace {
 
     public static void main(String[] args){
         String input = "Hello World";
+        String output = reversePreserveSpace(input);
+        System.out.println("White space preserved: "+output);
 
 
     }
