@@ -42,3 +42,12 @@ public class ReverseWhilePreserveWhiteSpace {
 
     }
 }
+
+
+/***
+ * Approach: I use a two-pass approach. First I preserve the spaces, then I traverse the input from left to right and place non-space characters from the right side.
+ *
+ * Complexity
+ * Time: O(n)
+ * Space: O(n)
+ */
