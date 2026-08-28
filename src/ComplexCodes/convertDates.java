@@ -1,6 +1,22 @@
 package ComplexCodes;
 
 public class convertDates {
+
+
+    public static String convert(String input){
+
+        //step 1: split by "/"
+        String[] parts = input.split("/");
+
+        //Step 2: Extract parts
+        int day = Integer.parseInt(parts[0]);
+        int month = Integer.parseInt(parts[1]);
+        int year = Integer.parseInt(parts[2]);
+    }
+
+    public static void main(String[] args){
+        String input = "1/08/26";
+    }
 }
 
 
