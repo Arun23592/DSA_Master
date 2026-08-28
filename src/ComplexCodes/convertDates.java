@@ -2,6 +2,32 @@ package ComplexCodes;
 
 public class convertDates {
 
+    public static String getOrdinal(int day){
+        //step 3: get ordinal suffix
+
+        //special case: 11th, 12th, 13th
+        if(day >= 11 && day <=13) return day + "th";
+
+        switch(day % 10){
+            case 1: return day + "st";
+            case 2: return day + "nd";
+            case 3: return day + "rd";
+
+            default: return day + "th";
+        }
+    }
+
+    public static String getMonthName(int month){
+        //step 4: get month name
+        String[] months = {
+                "", "Jan", "Feb", "mar", "Apr",
+                "May", "Jun", "Jul", "Aug",
+                "Sep", "oct", "Nov", "Dec"
+
+        };
+        return months[month]; //Index 1 = Jan.... 12 = Dec
+    }
+
 
     public static String convert(String input){
 
@@ -12,6 +38,9 @@ public class convertDates {
         int day = Integer.parseInt(parts[0]);
         int month = Integer.parseInt(parts[1]);
         int year = Integer.parseInt(parts[2]);
+
+        //Step 3: Ordinal day
+        String
     }
 
     public static void main(String[] args){
