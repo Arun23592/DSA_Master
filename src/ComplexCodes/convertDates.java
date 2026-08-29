@@ -40,11 +40,22 @@ public class convertDates {
         int year = Integer.parseInt(parts[2]);
 
         //Step 3: Ordinal day
-        String
+        String ordinalDay = getOrdinal(day);
+
+        //Step 4: Month name
+        String monthName = getMonthName(month);
+
+        //Step 5: Full year
+        String fullYear = "20" + String.format("%02d", year); //2026
+
+        //Step 6: Build result
+        return ordinalDay + " " + monthName + " " + fullYear;
     }
 
     public static void main(String[] args){
         String input = "1/08/26";
+        String output = convert(input);
+        System.out.println(output);
     }
 }
 
