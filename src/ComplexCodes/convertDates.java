@@ -53,7 +53,7 @@ public class convertDates {
     }
 
     public static void main(String[] args){
-        String input = "1/08/26";
+        String input = "29/09/26";
         String output = convert(input);
         System.out.println(output);
     }
