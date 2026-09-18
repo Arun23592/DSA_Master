@@ -39,6 +39,10 @@ public class SecondHighestSalary {
  *
  * Interview :
  *
+ * The stream solution is concise and readable, but its complexity is O(n log n) because it sorts the entire collection.
+ * The optimal DSA solution maintains the highest and second-highest values in a single traversal, achieving O(n) time and O(1) space.
+ * In production, I would choose based on data size and readability requirements.
+ * For interview optimisation questions, I would present the O(n) single-pass solution first and then discuss stream-based alternatives.
  *
  *
  *
