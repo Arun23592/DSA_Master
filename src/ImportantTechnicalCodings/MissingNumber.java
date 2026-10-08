@@ -24,3 +24,9 @@ public class MissingNumber {
         }
     }
 }
+
+
+/**
+ *
+ * find the missing number in a given array arr = {1, 2, 3, 5, 6, 10};
+ * */
