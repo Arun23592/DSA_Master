@@ -7,6 +7,8 @@ public class NumberOfDaysBetweenTwoDays {
 
         //Step 1: Parse year, month, days
         int year = Integer.parseInt(date.substring(0, 4));
+        int month = Integer.parseInt(date.substring(0, 7));
+        int Day = Integer.parseInt(date.substring(0, 31));
 
     }
 
