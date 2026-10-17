@@ -2,7 +2,10 @@ package ImportantTechnicalCodings;
 
 public class NumberOfDaysBetweenTwoDays {
 
-
+    private boolean isLeap(int year){
+        return (year % 4 == 0 && year % 100 != 0)
+                || (year % 400 == 0);
+    }
     public int toDays(String date){
 
         //Step 1: Parse year, month, days
@@ -11,7 +14,7 @@ public class NumberOfDaysBetweenTwoDays {
         int Day = Integer.parseInt(date.substring(8, 10));
 
 
-        //Days per month with running cumulative sum
+        //Step 2: Days per month with running cumulative sum
 
         int[] daysInMonth = {0, 31, 59, 90, 120, 151,
                            181, 212, 243, 273, 304, 334};
@@ -19,7 +22,11 @@ public class NumberOfDaysBetweenTwoDays {
 
         int total = 0;
 
+        //Step 3: Add days for all full years from  1971 to year-1
 
+        for(int y=1971; y<year; y++){
+            total +=
+        }
 
     }
 
