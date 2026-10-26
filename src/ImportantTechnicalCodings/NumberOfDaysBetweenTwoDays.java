@@ -55,6 +55,62 @@ public class NumberOfDaysBetweenTwoDays {
 
 /*
 
+
+Approach -- Brute force
+
+Optimized O(1) Solution
+
+LeetCode 1360 — Number of Days Between Two Dates
+Understanding the Problem
+Input:  date1 = "2019-06-29"
+        date2 = "2019-06-30"
+Output: 1
+
+Input:  date1 = "2020-01-15"
+        date2 = "2019-12-31"
+Output: 15
+
+Format: YYYY-MM-DD
+Range:  1971 to 2100
+
+
+DSA Approach — Convert to Days Since Epoch
+Key Insight:
+  Don't subtract dates directly.
+  Convert EACH date → total days since a fixed reference point (epoch)
+  Then subtract → absolute difference
+
+Reference point = Jan 1, 1971 (given constraint starts 1971)
+
+date1 → totalDays1
+date2 → totalDays2
+answer = |totalDays1 - totalDays2|
+
+How to Count Days Since Epoch
+totalDays = days from all FULL years before this year
+           + days from all FULL months before this month
+           + day of month
+
+Step 1: Years → add 365 per year + 1 extra for leap years
+Step 2: Months → add days per month (28/29/30/31)
+Step 3: Add the day
+
+Leap Year Rule:
+A year is a LEAP year if:
+  divisible by 4     → candidate
+  BUT if divisible by 100 → NOT leap
+  BUT if divisible by 400 → IS leap
+
+Examples:
+  2000 → divisible by 400 → LEAP ✅
+  1900 → divisible by 100 but not 400 → NOT leap ❌
+  2024 → divisible by 4, not 100 → LEAP ✅
+  2019 → not divisible by 4 → NOT leap ❌
+
+Java:
+  (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)
+
+DRY Run - "2019-06-29"
 Parse: year=2019, month=6, day=29
 
 Step 1: Add days for years 1971 → 2018 (all full years before 2019)
@@ -67,7 +123,4 @@ Step 2: Add days for months Jan → May (full months before June)
 Step 3: Add day = 29
 
 totalDays("2019-06-29") = yearDays + 151 + 29
-
-
-
 **/
