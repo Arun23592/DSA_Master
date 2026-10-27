@@ -23,8 +23,8 @@ public class TwoSumPair {
     }
 
     public static void main(String[] args){
-        int[] nums = {6, 8, 11, 6, 7, 18, 2};
-        int target = 17;
+        int[] nums = {1, 1, 1, 1, 1};
+        int target = 3;
     TwoSumPair sum = new TwoSumPair();
 
     int[] targetPair = sum.targetSum(nums, target);
