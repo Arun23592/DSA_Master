@@ -3,6 +3,11 @@ package STRING;
 public class CheckStringRotation {
 
     public static boolean areRotation(String s1, String s2){
+
+            //edge case
+            if(s1 == null || s2 == null){
+                return false;
+            }
             //1. find the length of the two strings s1 and s2
             if(s1.length() != s2.length()){
                 return false;
