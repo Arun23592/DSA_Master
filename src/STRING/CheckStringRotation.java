@@ -24,5 +24,6 @@ public class CheckStringRotation {
         String s2 = "CDAB";
         boolean result = areRotation(s1, s2);
         System.out.println(result);
+
     }
 }
